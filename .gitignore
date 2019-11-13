@@ -127,7 +127,6 @@ dmypy.json
 # VS Code Settings
 .vscode/
 
-
 #### MacOs Section
 
 # General
@@ -168,3 +167,11 @@ docs/
 hugo.exe
 hugo.darwin
 hugo.linux
+
+#imagesfonts
+*.png
+*.woff
+*.woff2
+*.svg
+*.ttf
+*.eot
