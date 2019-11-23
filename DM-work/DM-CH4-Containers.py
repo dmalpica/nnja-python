@@ -29,8 +29,21 @@ names.reverse()
 print(names)
 
 names.insert(2, "Sarah")
+names.insert(5, "Sarah")
 print(names)
 
 names.extend(noms)
 
+print(names)
+
+print(names.index("Sarah"))
+print(names.count("Sarah"))
+
+names.remove("Sarah")
+print(names)
+
+names.pop()
+print(names)
+
+names.pop(0)
 print(names)
